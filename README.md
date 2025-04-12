@@ -11,3 +11,6 @@ This repository contains starter templates and final code for [Learn Next.js](ht
 The code for the example apps you build using Next.js Learn live in this repository and we'd be grateful for your contributions.
 
 The course curriculum is currently not open sourced, but you can [create an issue](https://github.com/vercel/next-learn/issues/new) if you find a mistake.
+
+#更新日志
+2025/4/12：生成neon数据库连接密钥并配置到.env；生成seed数据；解决两个报错问题:Failed to collect page data for /seed、Failed to load external module bcrypt

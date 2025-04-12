@@ -1,4 +1,5 @@
-import bcrypt from 'bcrypt';
+//import bcrypt from 'bcrypt'; //官方代码运行报错找不到bcrypt，参考issue解决：https://github.com/vercel/next.js/discussions/76822
+import bcrypt from "bcryptjs";
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
